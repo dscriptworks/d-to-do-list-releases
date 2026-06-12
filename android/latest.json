@@ -1,0 +1,10 @@
+{
+  "versionCode": 1,
+  "versionName": "0.1.0",
+  "apkUrl": "",
+  "sha256": "",
+  "publishedAt": "2026-06-13T03:30:00+07:00",
+  "releaseNotes": [
+    "Initial Android testing build."
+  ]
+}
