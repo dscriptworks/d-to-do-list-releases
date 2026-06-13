@@ -1,12 +1,13 @@
 {
-  "versionCode": 2,
-  "versionName": "0.1.1",
-  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.1/app-debug.apk",
-  "sha256": "62EAC26CA9AE4993E35AC7F783BCA6F8FBB22A927D2F9D12D4FF061F3B0B20CD",
-  "publishedAt": "2026-06-13T11:15:00+07:00",
+  "versionCode": 3,
+  "versionName": "0.1.2",
+  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.2/app-debug.apk",
+  "sha256": "FC7BB685D2FA315A206615DBFC3BDCCCEBEE36B2A108C7759C50335111BC51B4",
+  "publishedAt": "2026-06-13T12:42:25+07:00",
   "releaseNotes": [
-    "Use one HTTPS Supabase callback bridge for Android and desktop.",
-    "Improve Android widgets with filter/date pages, scrollable rows, larger checkboxes, clickable header, and quick add actions.",
-    "Align Android sync updates with desktop timestamp-based sync to reduce false conflicts."
+    "Polish Android widgets with rounded controls, larger hit targets, smoother in-widget refresh, proper chevrons, and important stars.",
+    "Move Android task creation into the bottom navigation plus flow and add cleaner add/edit forms.",
+    "Add Today, Tomorrow, All, Overdue, Active, Done, and Important filtering in the Android app.",
+    "Improve desktop sync responsiveness to remote Android changes with Realtime, focus, visibility, and shorter polling triggers."
   ]
 }
