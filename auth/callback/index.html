@@ -68,11 +68,17 @@
     </main>
 
     <script>
-      const appUrl = new URL("com.dtoodolist.mobile://auth/callback");
-      appUrl.search = window.location.search;
-      appUrl.hash = window.location.hash;
+      const params = new URLSearchParams(window.location.search);
+      const targetName = params.get("target") || "android";
+      params.delete("target");
 
-      const target = appUrl.toString();
+      const callbacks = {
+        android: "com.dtoodolist.mobile://auth/callback",
+        desktop: "http://127.0.0.1:17321/auth/callback",
+      };
+      const appUrl = callbacks[targetName] || callbacks.android;
+      const search = params.toString();
+      const target = `${appUrl}${search ? `?${search}` : ""}${window.location.hash}`;
       document.getElementById("openApp").href = target;
       window.location.replace(target);
     </script>

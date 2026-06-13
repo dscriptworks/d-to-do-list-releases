@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dtoodolist.mobile",
+      "sha256_cert_fingerprints": [
+        "8D:0C:95:04:5D:65:4E:05:B6:58:9B:AF:09:0A:6F:FE:E5:15:DC:04:B4:C4:68:A9:97:45:F0:AE:F4:FE:33:E9"
+      ]
+    }
+  }
+]
