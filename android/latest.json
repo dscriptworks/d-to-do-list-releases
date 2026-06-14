@@ -1,12 +1,15 @@
 {
-  "versionCode": 8,
-  "versionName": "0.1.7",
-  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.7/app-debug.apk",
-  "sha256": "71052E813A9876FA7F83A15A7264D18FA0DEDC6294BDDA24611B6A60C2435C2E",
-  "publishedAt": "2026-06-14T17:35:43+07:00",
+  "versionCode": 9,
+  "versionName": "0.1.8",
+  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.8/app-debug.apk",
+  "sha256": "C63DBD7F94F4328F48B51128398C4D8608697AD806EBBC0881EC551D258A6785",
+  "publishedAt": "2026-06-14T18:31:45+07:00",
   "releaseNotes": [
-    "Observe task data inside Glance widget content instead of reusing a stale task snapshot.",
-    "Refresh widget rows from the Room task stream after widget actions and app edits.",
-    "Keep the simplified Today dashboard layout from the previous Android widget update."
+    "Polish the Android widget with transparent rows, dividers, extended date groups, and agenda/reminder/important indicators.",
+    "Make agenda quick-add default to important and remove mark-as-done handling from agenda rows.",
+    "Replace Home filters with Your Task & Agenda, Important, All, Overdue, Active, and Done.",
+    "Add the Agenda calendar view with marked agenda dates and grouped upcoming agenda rows.",
+    "Show APK download percentage in the app and Android notification shade.",
+    "Add reminder sound mode settings for silent, notification tone, or alarm tone channels."
   ]
 }
