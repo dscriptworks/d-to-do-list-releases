@@ -1,15 +1,13 @@
 {
-  "versionCode": 5,
-  "versionName": "0.1.4",
-  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.4/app-debug.apk",
-  "sha256": "545BF5A60BF3082B193468B18E7E14473A18D42906D0710AB0A8F93982270CA7",
-  "publishedAt": "2026-06-13T19:18:30+07:00",
+  "versionCode": 6,
+  "versionName": "0.1.5",
+  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.5/app-debug.apk",
+  "sha256": "52D5021D98CB0F122E807D2BBC151BC9020FC5D3A3EFD8B08D355E6DB15EED3C",
+  "publishedAt": "2026-06-14T16:56:48+07:00",
   "releaseNotes": [
-    "Improve Android widget item spacing and move important stars to the right edge.",
-    "Open widget quick-add and item-edit actions in a lightweight popup activity.",
-    "Add a temporary widget updating overlay for mark-as-done actions.",
-    "Debounce automatic background sync after local edits and widget actions.",
-    "Add pull-to-sync in task lists and a top-bar sync action.",
-    "Move sign out into a separate confirmed section in the App tab."
+    "Remove double widget repaint from mark-as-done actions.",
+    "Reduce the number of tasks and rows Glance renders per widget refresh.",
+    "Debounce widget refreshes triggered from the main app.",
+    "Use deterministic Unicode escapes for widget symbols."
   ]
 }
