@@ -1,13 +1,12 @@
 {
-  "versionCode": 7,
-  "versionName": "0.1.6",
-  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.6/app-debug.apk",
-  "sha256": "3DB08B283F23246A27CCC3287F92A77FB800D81394D1280A49EADA6457E034E2",
-  "publishedAt": "2026-06-14T17:15:35+07:00",
+  "versionCode": 8,
+  "versionName": "0.1.7",
+  "apkUrl": "https://github.com/dscriptworks/d-to-do-list-releases/releases/download/android-v0.1.7/app-debug.apk",
+  "sha256": "71052E813A9876FA7F83A15A7264D18FA0DEDC6294BDDA24611B6A60C2435C2E",
+  "publishedAt": "2026-06-14T17:35:43+07:00",
   "releaseNotes": [
-    "Simplify the Android widget into one Today dashboard.",
-    "Remove widget tabs, date controls, filter controls, and header counters.",
-    "Show overdue active items, today active items, and today done items only.",
-    "Remove old Agenda and List widget providers from the widget picker."
+    "Observe task data inside Glance widget content instead of reusing a stale task snapshot.",
+    "Refresh widget rows from the Room task stream after widget actions and app edits.",
+    "Keep the simplified Today dashboard layout from the previous Android widget update."
   ]
 }
